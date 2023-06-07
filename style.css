@@ -1,0 +1,38 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.main {
+    display:flex;
+    background-color: black;
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+} 
+
+.zerar{
+    width: 48px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.text{
+    width: 282px;
+    height: 100px;
+    font-size: 70px;
+    margin: 5px;
+}
+
+.num{
+    font-size: 50px;
+    width: 56px;
+}

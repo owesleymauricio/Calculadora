@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>CALCULADORA </h1>
+    </header>
+
+    <div class="main">
+
+        <form action="" class="calcform" name="calc" >
+
+            <input type="text" name="text1" class="text" disabled>
+             <br>
+             <input type="text" name="text2" class="zerar" value="C" onclick="location.reload()" >
+            <input type="button" value="7" class="num" name="btn7" onclick="displayNum(btn7.value)" >
+            <input type="button" value="8" class="num" name="btn8" onclick="displayNum(btn8.value)" >
+            <input type="button" value="9" class="num" name="btn9" onclick="displayNum(btn9.value)" >
+            <input type="button" value="+"  class="num red" name="plus" onclick="displayNum(plus.value)" > 
+             <br>    
+
+            <input type="button" value="4" class="num" name="btn4" onclick="displayNum(btn4.value)" >
+            <input type="button" value="5" class="num" name="btn5" onclick="displayNum(btn5.value)" >
+            <input type="button" value="6" class="num" name="btn6" onclick="displayNum(btn6.value)" >
+            <input type="button" value="-"  class="num gre" name="sub" onclick="displayNum(sub.value)" >
+            <input type="button" value="(" class="num pur" name="par1" onclick="displayNum(par1.value)" > 
+            <br>
+
+            <input type="button" value="1" class="num" name="btn1" onclick="displayNum(btn1.value)" >
+            <input type="button" value="2" class="num" name="btn2" onclick="displayNum(btn2.value)" >
+            <input type="button" value="3" class="num" name="btn3" onclick="displayNum(btn3.value)" >
+            <input type="button" value="*" class="num blu" name="multi" onclick="displayNum(multi.value)" > 
+            <input type="button" value=")" class="num pur" name="par2" onclick="displayNum(par2.value)" >
+             <br>
+
+            <input type="button" value="." class="num" name="btnp" onclick="displayNum(btnp.value)" >
+            <input type="button" value="0" class="num" name="btn0" onclick="displayNum(btn0.value)" >
+            <input type="button" value="=" class="num" name="res" onclick="text1.value=eval(text1.value)" >
+            <input type="button" value="/" class="num yel" name="dvdr" onclick="displayNum(dvdr.value)" > 
+            <input type="button" value="%" class="num grey" name="por" onclick="displayNum(por.value)" > <br>
+       
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; oFamosoWesley</p>
+    </footer>
+    
+    <script src="estilo.js"></script>
+    
+</body>
+    
+</html>
